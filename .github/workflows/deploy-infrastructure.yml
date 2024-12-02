@@ -36,7 +36,7 @@ env:
   PRODUCT_IMAGES_STORAGE_ACCOUNT_NAME: contosotradersimg-np
   PRODUCT_LIST_CONTAINER_NAME: product-list-np
   PRODUCTS_CDN_ENDPOINT_NAME: contoso-traders-images-np
-  RESOURCE_GROUP_NAME: contoso-traders-rg-np
+  RESOURCE_GROUP_NAME: contoso-017app-np
   STORAGE_ACCOUNT_NAME: contosotradersimg-np
   UI_CDN_ENDPOINT_NAME: contoso-traders-ui2-np
   UI_STORAGE_ACCOUNT_NAME: contosotradersui2-np
