@@ -16,31 +16,31 @@ on:
 env:
   # You can specify any location for `SUB_DEPLOYMENT_REGION`. It's the region where the deployment
   # metadata will be stored, and not where the resource groups will be deployed.
-  ACR_NAME: contosotradersacr
-  AKS_CLUSTER_NAME: contoso-traders-aks
-  AKS_DNS_LABEL: contoso-traders-products
+  ACR_NAME: contosotradersacr_np
+  AKS_CLUSTER_NAME: contoso-traders-aks_np
+  AKS_DNS_LABEL: contoso-traders-products_np
   AKS_NODES_RESOURCE_GROUP_NAME: contoso-traders-aks-nodes-rg-<deployment-id>
-  AKS_SECRET_NAME_ACR_PASSWORD: contoso-traders-acr-password
-  AKS_SECRET_NAME_KV_ENDPOINT: contoso-traders-kv-endpoint
-  AKS_SECRET_NAME_MI_CLIENTID: contoso-traders-mi-clientid
-  CARTS_ACA_NAME: contoso-traders-carts
-  CARTS_ACR_REPOSITORY_NAME: contosotradersapicarts
-  CDN_PROFILE_NAME: contoso-traders-cdn
-  SUB_DEPLOYMENT_REGION: eastus2
-  KV_NAME: contosotraderskv
-  PRODUCTS_ACR_REPOSITORY_NAME: contosotradersapiproducts
-  PRODUCTS_DB_NAME: productsdb
-  PRODUCTS_DB_SERVER_NAME: contoso-traders-products
-  PRODUCTS_DB_USER_NAME: localadmin
-  PRODUCT_DETAILS_CONTAINER_NAME: product-details
-  PRODUCT_IMAGES_STORAGE_ACCOUNT_NAME: contosotradersimg
-  PRODUCT_LIST_CONTAINER_NAME: product-list
-  PRODUCTS_CDN_ENDPOINT_NAME: contoso-traders-images
+  AKS_SECRET_NAME_ACR_PASSWORD: contoso-traders-acr-password_np
+  AKS_SECRET_NAME_KV_ENDPOINT: contoso-traders-kv-endpoint_np
+  AKS_SECRET_NAME_MI_CLIENTID: contoso-traders-mi-clientid_np
+  CARTS_ACA_NAME: contoso-traders-carts_np
+  CARTS_ACR_REPOSITORY_NAME: contosotradersapicarts_np
+  CDN_PROFILE_NAME: contoso-traders-cdn_np
+  SUB_DEPLOYMENT_REGION: uksouth
+  KV_NAME: contosotraderskv_np
+  PRODUCTS_ACR_REPOSITORY_NAME: contosotradersapiproducts_np
+  PRODUCTS_DB_NAME: productsdb_np
+  PRODUCTS_DB_SERVER_NAME: contoso-traders-products_np
+  PRODUCTS_DB_USER_NAME: localadmin_np
+  PRODUCT_DETAILS_CONTAINER_NAME: product-details_np
+  PRODUCT_IMAGES_STORAGE_ACCOUNT_NAME: contosotradersimg_np
+  PRODUCT_LIST_CONTAINER_NAME: product-list_np
+  PRODUCTS_CDN_ENDPOINT_NAME: contoso-traders-images_np
   RESOURCE_GROUP_NAME: contosotraders-<deployment-id>
-  STORAGE_ACCOUNT_NAME: contosotradersimg
-  UI_CDN_ENDPOINT_NAME: contoso-traders-ui2
-  UI_STORAGE_ACCOUNT_NAME: contosotradersui2
-  USER_ASSIGNED_MANAGED_IDENTITY_NAME: contoso-traders-mi-kv-access
+  STORAGE_ACCOUNT_NAME: contosotradersimg_np
+  UI_CDN_ENDPOINT_NAME: contoso-traders-ui2_np
+  UI_STORAGE_ACCOUNT_NAME: contosotradersui2_np
+  USER_ASSIGNED_MANAGED_IDENTITY_NAME: contoso-traders-mi-kv-access_np
 
 jobs:
   provision-infrastructure:
