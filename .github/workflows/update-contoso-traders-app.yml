@@ -16,31 +16,31 @@ on:
 env:
   # You can specify any location for `SUB_DEPLOYMENT_REGION`. It's the region where the deployment
   # metadata will be stored, and not where the resource groups will be deployed.
-  ACR_NAME: contosotradersacr_np
-  AKS_CLUSTER_NAME: contoso-traders-aks_np
-  AKS_DNS_LABEL: contoso-traders-products_np
+  ACR_NAME: contosotradersacr-np
+  AKS_CLUSTER_NAME: contoso-traders-aks-np
+  AKS_DNS_LABEL: contoso-traders-products-np
   AKS_NODES_RESOURCE_GROUP_NAME: contoso-traders-aks-nodes-rg-np-15309757
-  AKS_SECRET_NAME_ACR_PASSWORD: contoso-traders-acr-password_np
-  AKS_SECRET_NAME_KV_ENDPOINT: contoso-traders-kv-endpoint_np
-  AKS_SECRET_NAME_MI_CLIENTID: contoso-traders-mi-clientid_np
-  CARTS_ACA_NAME: contoso-traders-carts_np
-  CARTS_ACR_REPOSITORY_NAME: contosotradersapicarts_np
-  CDN_PROFILE_NAME: contoso-traders-cdn_np
-  SUB_DEPLOYMENT_REGION: uksouth
-  KV_NAME: contosotraderskv_np
-  PRODUCTS_ACR_REPOSITORY_NAME: contosotradersapiproducts_np
-  PRODUCTS_DB_NAME: productsdb_np
-  PRODUCTS_DB_SERVER_NAME: contoso-traders-products_np
-  PRODUCTS_DB_USER_NAME: localadmin_np
-  PRODUCT_DETAILS_CONTAINER_NAME: product-details_np
-  PRODUCT_IMAGES_STORAGE_ACCOUNT_NAME: contosotradersimg_np
-  PRODUCT_LIST_CONTAINER_NAME: product-list_np
-  PRODUCTS_CDN_ENDPOINT_NAME: contoso-traders-images_np
+  AKS_SECRET_NAME_ACR_PASSWORD: contoso-traders-acr-password-np
+  AKS_SECRET_NAME_KV_ENDPOINT: contoso-traders-kv-endpoint-np
+  AKS_SECRET_NAME_MI_CLIENTID: contoso-traders-mi-clientid-np
+  CARTS_ACA_NAME: contoso-traders-carts-np
+  CARTS_ACR_REPOSITORY_NAME: contosotradersapicarts-np
+  CDN_PROFILE_NAME: contoso-traders-cdn-np
+  SUB_DEPLOYMENT_REGION: westeurope
+  KV_NAME: contosotraderskv-np
+  PRODUCTS_ACR_REPOSITORY_NAME: contosotradersapiproducts-np
+  PRODUCTS_DB_NAME: productsdb-np
+  PRODUCTS_DB_SERVER_NAME: contoso-traders-products-np
+  PRODUCTS_DB_USER_NAME: localadmin-np
+  PRODUCT_DETAILS_CONTAINER_NAME: product-details-np
+  PRODUCT_IMAGES_STORAGE_ACCOUNT_NAME: contosotradersimg-np
+  PRODUCT_LIST_CONTAINER_NAME: product-list-np
+  PRODUCTS_CDN_ENDPOINT_NAME: contoso-traders-images-np
   RESOURCE_GROUP_NAME: contosotraders-np-15309757
-  STORAGE_ACCOUNT_NAME: contosotradersimg_np
-  UI_CDN_ENDPOINT_NAME: contoso-traders-ui2_np
-  UI_STORAGE_ACCOUNT_NAME: contosotradersui2_np
-  USER_ASSIGNED_MANAGED_IDENTITY_NAME: contoso-traders-mi-kv-access_np
+  STORAGE_ACCOUNT_NAME: contosotradersimg-np
+  UI_CDN_ENDPOINT_NAME: contoso-traders-ui2-np
+  UI_STORAGE_ACCOUNT_NAME: contosotradersui2-np
+  USER_ASSIGNED_MANAGED_IDENTITY_NAME: contoso-traders-mi-kv-access-np
 
 jobs:
   provision-infrastructure:
