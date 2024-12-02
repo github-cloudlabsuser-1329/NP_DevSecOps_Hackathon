@@ -6,7 +6,7 @@ targetScope = 'resourceGroup'
 
 // common
 @minLength(3)
-@maxLength(7)
+@maxLength(8)
 @description('A unique environment suffix (max 6 characters, alphanumeric only).')
 param suffix string
 
