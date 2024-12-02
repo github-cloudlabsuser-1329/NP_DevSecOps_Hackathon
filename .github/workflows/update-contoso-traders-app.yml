@@ -19,7 +19,7 @@ env:
   ACR_NAME: contosotradersacr-np
   AKS_CLUSTER_NAME: contoso-traders-aks-np
   AKS_DNS_LABEL: contoso-traders-products-np
-  AKS_NODES_RESOURCE_GROUP_NAME: contoso-traders-aks-nodes-rg-np-15309757
+  AKS_NODES_RESOURCE_GROUP_NAME: contoso-traders-aks-nodes-rg-np-${{ vars.SUFFIX }}
   AKS_SECRET_NAME_ACR_PASSWORD: contoso-traders-acr-password-np
   AKS_SECRET_NAME_KV_ENDPOINT: contoso-traders-kv-endpoint-np
   AKS_SECRET_NAME_MI_CLIENTID: contoso-traders-mi-clientid-np
@@ -36,7 +36,7 @@ env:
   PRODUCT_IMAGES_STORAGE_ACCOUNT_NAME: contosotradersimg-np
   PRODUCT_LIST_CONTAINER_NAME: product-list-np
   PRODUCTS_CDN_ENDPOINT_NAME: contoso-traders-images-np
-  RESOURCE_GROUP_NAME: contosotraders-np-15309757
+  RESOURCE_GROUP_NAME: contosotraders-np-${{ vars.SUFFIX }}
   STORAGE_ACCOUNT_NAME: contosotradersimg-np
   UI_CDN_ENDPOINT_NAME: contoso-traders-ui2-np
   UI_STORAGE_ACCOUNT_NAME: contosotradersui2-np
