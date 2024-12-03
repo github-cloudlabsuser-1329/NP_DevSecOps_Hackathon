@@ -32,7 +32,7 @@ param rgLocation string
 
 // tags
 var rgTags = {
-  Product: 'contoso-017app-np${suffix}'
+  Product: '${rgName}${suffix}'
   Environment: suffix
 }
 
@@ -40,7 +40,7 @@ var rgTags = {
 ////////////////////////////////////////////////////////////////////////////////
 
 resource rg 'Microsoft.Resources/resourceGroups@2022-09-01' = {
-  name: 'contoso-017app-np${suffix}'
+  name: '${rgName}${suffix}'
   location: rgLocation
   tags: rgTags
 }
