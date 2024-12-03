@@ -19,9 +19,9 @@ param resourceLocation string = resourceGroup().location
 param tenantId string = subscription().tenantId
 
 
-param prefix string = 'contosotraders'
+param prefix string = 'contoso017appnp'
 
-param prefixHyphenated string = 'contoso-traders'
+param prefixHyphenated string = 'contoso-017app-np'
 
 
 
